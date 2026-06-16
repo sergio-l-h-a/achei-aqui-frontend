@@ -1,0 +1,40 @@
+.left-section {
+  width: 15%;
+  min-height: 70vh;
+  background: transparent;
+  border: none;
+  position: fixed;
+  bottom: 150px;
+  left: -10px;
+  height: fit-content;
+  padding: 8px;
+}
+
+.left-section h3 {
+  margin: 70px 15px;
+
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+.left-section ul {
+  list-style: none;
+}
+
+.left-section li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  color: #444;
+  cursor: pointer;
+  transition: color .2s ease;
+}
+
+.left-section li:hover {
+  color: #ff7a00;
+}
+
+.left-section  a {
+  margin-left: 10px;
+  text-decoration: none;
+}
