@@ -13,10 +13,10 @@ export default function LeftSection() {
                 <li>🪣<a href="#">Serviços Domésticos</a></li>
                 <li>👗<a href="#">Moda & Varejo</a></li>
                 <li>💻<a href="#">Tecnologia</a></li>
-                <li>🍔<a href="https://achei-aqui-frontend.vercel.app/categoria/4">Hamburguer</a></li>
+                <li>🍔<a href="https://achei-aqui-backend.onrender.com/imagens/lanchonete.jpg">Hamburguer</a></li>
                 <li>🍕<a href="https://achei-aqui-frontend.vercel.app/categoria/4">Pizzaria</a></li>
                 <li>🎮<a href="#">Games</a></li>
-                <li>✂️<a href="https://achei-aqui-frontend.vercel.app/categoria/1">Barbeiro</a></li>
+                <li>✂️<a href="https://achei-aqui-backend.onrender.com/imagens/barbearia.jpg">Barbeiro</a></li>
                 <li>💅<a href="#">Manicure</a></li>
                 <li>💇🏼‍♀️<a href="#">Salão de Beleza</a></li>
             </ul>
