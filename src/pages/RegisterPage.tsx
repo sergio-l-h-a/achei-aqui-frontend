@@ -11,7 +11,7 @@ function RegisterPage() {
         e.preventDefault();
 
         try{
-            await axios.post("http://localhost:3333/auth/register", {
+            await axios.post("https://achei-aqui-backend.onrender.com/auth/register", {
                 name, email, password
             });
             alert("Cadastro realizado!");

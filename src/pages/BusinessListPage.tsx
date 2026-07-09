@@ -16,7 +16,7 @@ function BusinessListPage() {
 
   useEffect(() => {
     api
-      .get("http://localhost:3333/business")
+      .get("https://achei-aqui-backend.onrender.com/business")
       .then(res => setBusinesses(res.data))
       .catch(() => console.log("Erro ao carregar negócios"));
   }, []);
