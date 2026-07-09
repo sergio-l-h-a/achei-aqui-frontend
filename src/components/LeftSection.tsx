@@ -14,8 +14,8 @@ export default function LeftSection() {
                 <li>👗<a href="#">Moda & Varejo</a></li>
                 <li>💻<a href="#">Tecnologia</a></li>
                 <li>🍔<a href="https://achei-aqui-backend.onrender.com/imagens/lanchonete.jpg">Hamburguer</a></li>
-                <li>🍕<a href="https://achei-aqui-frontend.vercel.app/categoria/4">Pizzaria</a></li>
-                <li>🎮<a href="#">Games</a></li>
+                <li>🍕<a href="https://achei-aqui-frontend.vercel.app/categories/">Pizzaria</a></li>
+                <li>🎮<a href="https://achei-aqui-backend.onrender.com/imagens/carro-oficina.jpg">Games</a></li>
                 <li>✂️<a href="https://achei-aqui-backend.onrender.com/imagens/barbearia.jpg">Barbeiro</a></li>
                 <li>💅<a href="#">Manicure</a></li>
                 <li>💇🏼‍♀️<a href="#">Salão de Beleza</a></li>
