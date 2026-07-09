@@ -20,7 +20,7 @@ export default function BusinessDetailPage() {
 
   useEffect(() => {
     api
-      .get(`https://achei-aqui-backend.onrender.com/business/${id}`)
+      .get(`/business/${id}`)
       .then(res => setBusiness(res.data))
       .catch(() => console.log("Erro ao carregar negócio"));
   }, [id]);
