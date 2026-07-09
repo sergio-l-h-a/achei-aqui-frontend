@@ -25,7 +25,7 @@ export default function HomePage() {
   return (
     <section className="home">
       <div className="banner">
-        <img src="https://seusite.com/src/assets/banner-guia-local.png
+        <img src="https://achei-aqui-backend.onrender.com/imagens/banner-guia-local.png
 " alt="Banner Guia Local" />
         <Link to="cadastro" className="btn-banner">
             Cadastre seu negócio
