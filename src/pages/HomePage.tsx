@@ -35,7 +35,7 @@ export default function HomePage() {
       <LeftSection />
       <div className="category-grid">
         {categories.map((c) => (
-          <Link key={c.id} to={`${api}/categoria/${c.id}`} className="category-grid">
+          <Link key={c.id} to={`/categoria/${c.id}`} className="category-grid">
             <img src={c.image_url} alt={c.name} className="img-large " />
             <h3>{c.name}</h3>
             <p>{c.descricao}</p>
