@@ -8,7 +8,7 @@ interface Business {
   name: string;
   description: string;
   image_url: string;
-  category_name: string;
+  category_id: number;
 }
 
 function BusinessListPage() {
@@ -41,7 +41,7 @@ function BusinessListPage() {
 
             <div className="card-info">
               <h3>{b.name}</h3>
-              <span className="category">{b.category_name}</span>
+              <span className="category">{b.name}</span>
               <p>{b.description}</p>
             </div>
           </Link>
